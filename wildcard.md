@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Wildcard
+nav_order: 4.2
+parent: How to use the Cards
 quote: To invent, you need a good imagination and a pile of junk.
 quote-attribution: Thomas A. Edison
 category: nan
@@ -34,11 +36,3 @@ There is one wildcard in the card pack.  It doesn't fit into any of the petals.
                 </div>
             </div>
 
-<!-- :TODO: fix formatting -->
-<!--
-<img class='card-icon' alt-text=' ' src='/graphics/icons/wildcard.svg'>
-<h1>Wildcard</h1>
-
-<p>We can’t think of everything that might suit your circumstances.  For instance, one church could get their hall warm after they built a buggy park outside - because otherwise when the children came in, all the heat escaped.  You'll need to be curious about your building and your users to use this card well.</p> 
-
--->

@@ -1,7 +1,7 @@
 ---
-title: How to Use the Cards
+title: How to use the Cards
 layout: plain
-nav_order: 2       
+nav_order: 4      
 has_children: true
 ---
 

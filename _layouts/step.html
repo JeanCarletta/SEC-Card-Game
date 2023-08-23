@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.number }} &mdash; {{ page.title }}</title>
+  </head>
+  <body>
+
+    {% include breadcrumbs.html %}
+
+    <h1> {{ page.number }} &mdash; {{ page.title }}</h1>
+    
+    {% assign step=page %}
+    {% include render-step.html %}
+
+
+    {% include tasks-in-step.html %}
+
+  </body>
+</html>

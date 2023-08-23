@@ -22,6 +22,7 @@ nav {display: none;}
 
 .wrap{
   cursor: pointer;
+  outline: 2px solid;
 }
 
 div.list-grid-container {
@@ -35,7 +36,6 @@ div.list-row {
     display: grid;
     grid-template-rows: 100px;
     grid-template-columns: 100px auto;
-    outline: 2px solid;
     text-align: left;
     align-items: center;
   }
@@ -45,10 +45,43 @@ div.list-row {
     padding: 10px;
   }
 
+  div.list-description {
+    padding: 10px;
+  }
+
+  div.compact-grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.compact-icon {
+    display: block;
+    padding: 10px;
+  }
+
+  div.compact-title {
+    display: flex;
+    height: 150px;
+    padding: 30px;
+  }
+
+  div.compact-description {
+    display: flex;
+    padding: 30px;
+  }
+
+
+  /*
   div.description {
     display: flex;
     padding: 10px;
   }
+  */
 
 /* css for card pages */
 
@@ -86,9 +119,14 @@ hr {
   }
 
 .grid-item {
-    text-align: left;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
     align-items: center;
   }
+
+  /*  text-align: left;
+    align-items: center; */
 
   div.card {
     outline: 2px solid #006400; 
@@ -122,9 +160,13 @@ hr {
   img.toolkit-icon {
     /* background-color: white;*/
     border-style: none;
-    display: flex;
     height: 60px;
     width: 60px;
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
   }
 
   img.tag-icon {
@@ -144,3 +186,16 @@ div.icons-grid-item {
     align-items: center;
     justify-content: center;
   }
+
+  div.callout-left {
+    outline: 2px solid; 
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  div.callout-left h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
